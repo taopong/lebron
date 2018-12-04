@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The best LeBron James in the world</title>
+    <link rel="stylesheet" href="stylesheets/app.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="">LOGO</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section>
+    <div class="container content">
+        <div class="left">
+            <div style="width:662px; height:400px" data-simple-slider>
+                <img src="images/1.jpg"/>
+                <img src="images/1.jpg"/>
+            </div>
+
+            <article class="card" id="posts">
+
+                <div class="post">
+                    <h3>titledjslalds</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur cum dignissimos
+                        dolorem
+                        doloribus eum facilis id ipsa neque nostrum odit perferendis placeat, porro repellat sed sint,
+                        soluta sunt voluptates?</p>
+                </div>
+                <div class="post">
+                    <h3>titledjslalds</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur cum dignissimos
+                        dolorem
+                        doloribus eum facilis id ipsa neque nostrum odit perferendis placeat, porro repellat sed sint,
+                        soluta sunt voluptates?</p>
+                </div>
+                <div class="post">
+                    <h3>titledjslalds</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur cum dignissimos
+                        dolorem
+                        doloribus eum facilis id ipsa neque nostrum odit perferendis placeat, porro repellat sed sint,
+                        soluta sunt voluptates?</p>
+                </div>
+            </article>
+        </div>
+        <aside>
+            <div class="card auth">
+                <label>
+                    <span>name:</span>
+                    <input type="text" id="name">
+                </label>
+                <label>
+                    <span>password:</span>
+                    <input type="password" id="password">
+                </label>
+                <a href="javascript:(0)" onclick="handleToSignUp()" id="toSignUp">no account?</a>
+                <a href="javascript:(0)" onclick="handleToSignIn()" id="toSignIn">has account?</a>
+                <button onclick="handleSignIn()" id="signIn">sign in</button>
+                <button onclick="handleSignUp()" id="signUp">sign up</button>
+            </div>
+            <div class="card msg">
+                <label>
+                    <span>Leave a Comment:</span>
+                    <textarea id="comment" cols="30" rows="10" onkeyup="handleKeyUp(event)"></textarea>
+                    <button onclick="handleSubmit()">submit</button>
+                </label>
+                <ul id="comments">
+                    <li>
+                        <h3>jeff:</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consectetur cumque distinctio
+                            illo minima non optio quas ullam voluptate! Atqu</p>
+                    </li>
+                    <li>
+                        <h3>jeff:</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consectetur cumque distinctio
+                            illo minima non optio quas ullam voluptate! Atqu</p>
+                    </li>
+                    <li>
+                        <h3>jeff:</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consectetur cumque distinctio
+                            illo minima non optio quas ullam voluptate! Atqu</p>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</section>
+
+<script src="/javascripts/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simple-slider/1.0.0/simpleslider.min.js"></script>
+<script>
+    simpleslider.getSlider();
+    console.log(123)
+</script>
+</body>
+</html>

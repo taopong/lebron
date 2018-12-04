@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;*/
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+img{
+    width: 100%;
+}
+
+a {
+    color: #00B7FF;
+}
+
+nav {
+    background: #a05841;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+nav ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    width: 88px;
+}
+
+nav ul li a {
+    float: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li:first-child a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 15px 0 0 0;
+    display: flex;
+}
+
+.content .left {
+    width: 60%;
+    margin-right: 15px;
+}
+
+.content aside {
+    width: 30%;
+}
+
+.card {
+    padding: 24px;
+    margin: .5rem 0 1rem 0;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.auth span, .auth a {
+    display: block;
+}
+
+.msg ul {
+    margin: 0;
+    padding: 0;
+}
+
+.msg ul li {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.msg ul li h3 {
+    margin: 6px 0;
+    font-size: 16px;
+
+}
+
+.msg ul li p {
+    margin: 0;
+    padding: 0;
+    color: #5d5d5d;
+}
+
+.post h3 {
+    cursor: pointer;
+    font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.post p {
+    color: #5d5d5d;
+}
+
+#toSignIn {
+    display: none;
+}
+
+#signUp {
+    display: none;
+}
